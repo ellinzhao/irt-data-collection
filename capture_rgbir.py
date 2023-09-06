@@ -15,8 +15,8 @@ from PIL import ImageDraw
 from PIL import ImageFont
 
 import utils
-from classes.cam import ArduCam
-from classes.cam import Lepton
+from cam import ArduCam
+from cam import Lepton
 
 try:
     if platform.system() == 'Darwin':
